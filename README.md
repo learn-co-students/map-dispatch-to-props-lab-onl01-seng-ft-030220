@@ -24,5 +24,5 @@ Remember that __mapDispatchToProps()__ is provided `dispatch` as an argument
 (passed in by `connect` when called), so we can wrap an imported action with
 `dispatch` within __mapDispatchToProps()__. Don't forget that the action
 provided in `actions/restaurants.js` is a function that _must be called_ in
-order to return the action object.
+order to return the action object..
 
